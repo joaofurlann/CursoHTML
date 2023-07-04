@@ -1,0 +1,27 @@
+@charset "UTF-8";
+        body {
+            background-color:lightgoldenrodyellow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1{color:gold;
+        background-color: darkgoldenrod;}
+        
+        h2{color:darkorange;
+        }
+
+        
+        header{background-color:darkgoldenrod;
+            height: 300px;
+            font-size: 100px;
+            text-align:center;
+            color: gold;
+
+        }
+        a{
+            font-size: 50px;
+            background-color: darkgoldenrod;
+            color: gold;
+
+        }
+    
