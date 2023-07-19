@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="iano">Ano de nascimento</label>
+            <input type="number" name="ano" id="iano" min="2000" max="2023" oninput="iidade.innerHTML =Number(2023 - iano.value)">
+
+        </p>
+        <label for="iidade">Idade: </label>
+        <output id="iidade"></output>
+
+    </form>
+    
+</body>
+</html>
