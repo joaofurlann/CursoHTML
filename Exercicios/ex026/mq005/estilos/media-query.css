@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    #hamburguinho{
+        display: none;
+
+    }
+    menu{
+        display: block;
+        padding-bottom: 10px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    menu li{
+        display: inline;
+    }
+}
